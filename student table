@@ -1,0 +1,10 @@
+CREATE TABLE student (
+    roll_number INT PRIMARY KEY,
+    class VARCHAR(50),
+    gender CHAR(1)
+);
+INSERT INTO student (roll_number, class, gender) VALUES
+(1, '10th Grade', 'M'),
+(2, '11th Grade', 'F'),
+(3, '12th Grade', 'M');
+
